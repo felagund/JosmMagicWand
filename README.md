@@ -19,6 +19,18 @@ The DS-annotate plugin is an extension for the Java OpenStreetMap Desktop Editor
    ![image](https://user-images.githubusercontent.com/12978932/200429366-c8566cb9-d842-4efe-b810-151b68f86fc3.png)
    ![image](https://user-images.githubusercontent.com/12978932/200431510-a414f03f-c285-4217-adf0-d9d91d41d47f.png)
 
+## Compilation
+1. Get JOSM source code:
+```
+svn co https://josm.openstreetmap.de/osmsvn/applications/editors/josm
+```
+2. Locate where your JOSM executable is and copy it to: `josm/core/dist/josm-custom.jar`
+3. Download Java OpenSDK version 17 and use it for compilation
+4. Go to `josm/plugins/` and download the source code `git clone https://github.com/developmentseed/JosmMagicWand`
+5. Compile:
+```gradlew dist```
+6. Put your newly compiled plugin to JOSM plugin directory, for example on Linux to `~/.local/share/JOSM/plugins/`
+
 ## Usage
 
 The JOSM Magic Wand plugin offers three functionalities:
