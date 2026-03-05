@@ -1,6 +1,6 @@
 # DS-annotate plugin for Java OpenStreetMap Editor
 
-The DS-annotate plugin is an extension for the Java OpenStreetMap Desktop Editor (JOSM). Built upon ds-annotate, this plugin utilizes the [Segment Anything Service](https://github.com/developmentseed/segment-anything-services), which leverages Generative AI. Additionally, it allows users to label areas using a spectrum of colors, similar to a magic wand tool, enabling faster and more accurate mapping.
+The DS-annotate plugin is an extension for the Java OpenStreetMap Desktop Editor (JOSM). Built upon ds-annotate, this plugin utilizes the [Segment Anything Service](https://github.com/GeoCompas/samgeo-service), which leverages Generative AI. Additionally, it allows users to label areas using a spectrum of colors, similar to a magic wand tool, enabling faster and more accurate mapping.
 
 ![Peek 2022-11-09 16-53](https://user-images.githubusercontent.com/12978932/200950045-179c72d5-600c-4012-b2a4-3ceb1345ea25.gif)
 
